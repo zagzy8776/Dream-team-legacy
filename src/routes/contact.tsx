@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
-import { Phone, Mail, MessageCircle, Instagram, Youtube, Tiktok, Facebook, Linkedin } from "lucide-react";
+import { Phone, Mail, MessageCircle, Instagram, Youtube, Music2, Facebook, Linkedin } from "lucide-react";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
@@ -51,7 +51,7 @@ function ContactPage() {
             <div className="flex gap-3 pt-2">
               <a href="https://www.instagram.com/dream_team_legacy?igsh=MW1peDU4ZnBqd3MxZw%3D%3D&utm_source=qr" target="_blank" aria-label="Instagram" className="rounded-full border border-border p-3 hover:border-gold hover:text-gold"><Instagram className="h-5 w-5" /></a>
               <a href="https://youtube.com/@dreamteamlegacy-b6w?si=-Ss4hkMIREx0ae18" target="_blank" aria-label="YouTube" className="rounded-full border border-border p-3 hover:border-gold hover:text-gold"><Youtube className="h-5 w-5" /></a>
-              <a href="https://www.tiktok.com/@dreamteamlegacy?_r=1&_t=ZS-963K5P4dGZV" target="_blank" aria-label="TikTok" className="rounded-full border border-border p-3 hover:border-gold hover:text-gold"><Tiktok className="h-5 w-5" /></a>
+              <a href="https://www.tiktok.com/@dreamteamlegacy?_r=1&_t=ZS-963K5P4dGZV" target="_blank" aria-label="TikTok" className="rounded-full border border-border p-3 hover:border-gold hover:text-gold"><Music2 className="h-5 w-5" /></a>
             </div>
           </div>
 
