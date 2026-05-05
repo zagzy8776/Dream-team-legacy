@@ -7,13 +7,13 @@ import path from "path";
 
 export default defineConfig({
   plugins: [
-    react(),
-    tailwindcss(),
-    tsconfigPaths(),
     TanStackRouterVite({
       target: 'react',
       autoCodeSplitting: true,
     }),
+    react(),
+    tailwindcss(),
+    tsconfigPaths(),
   ],
   resolve: {
     alias: {
